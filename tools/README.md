@@ -40,6 +40,10 @@ Some tools require API keys to function. Credentials are managed through the enc
 | `GOOGLE_CALENDAR_ACCESS_TOKEN` | `calendar_*` tools    | [console.cloud.google.com](https://console.cloud.google.com/) (OAuth 2.0)           |
 | `HUBSPOT_ACCESS_TOKEN` | `hubspot_*` tools             | [developers.hubspot.com](https://developers.hubspot.com/)                           |
 | `APOLLO_API_KEY`       | `apollo_*` tools              | [app.apollo.io](https://app.apollo.io/)                                             |
+| `CALCOM_API_KEY`       | `calcom_*` tools              | [app.cal.com](https://app.cal.com/)                                                 |
+| `GOOGLE_CLOUD_VISION_API_KEY` | `vision_*` tools       | [console.cloud.google.com](https://console.cloud.google.com/)                       |
+| `GOOGLE_DOCS_ACCESS_TOKEN` | `google_docs_*` tools    | [console.cloud.google.com](https://console.cloud.google.com/) (OAuth 2.0)           |
+| `GOOGLE_MAPS_API_KEY`  | `maps_*` tools                | [console.cloud.google.com](https://console.cloud.google.com/)                       |
 
 > **Note:** `web_search` supports multiple providers. Set either Brave OR Google credentials. Brave is preferred for backward compatibility.
 
