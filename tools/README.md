@@ -44,6 +44,10 @@ Some tools require API keys to function. Credentials are managed through the enc
 | `GOOGLE_CLOUD_VISION_API_KEY` | `vision_*` tools       | [console.cloud.google.com](https://console.cloud.google.com/)                       |
 | `GOOGLE_DOCS_ACCESS_TOKEN` | `google_docs_*` tools    | [console.cloud.google.com](https://console.cloud.google.com/) (OAuth 2.0)           |
 | `GOOGLE_MAPS_API_KEY`  | `maps_*` tools                | [console.cloud.google.com](https://console.cloud.google.com/)                       |
+| `GOOGLE_APPLICATION_CREDENTIALS` | `run_bigquery_query`, `describe_dataset` | [console.cloud.google.com](https://console.cloud.google.com/) (service account JSON path) |
+| `BIGQUERY_PROJECT_ID`  | `run_bigquery_query`, `describe_dataset` | [console.cloud.google.com](https://console.cloud.google.com/)              |
+| `RAZORPAY_API_KEY`     | `razorpay_*` tools            | [dashboard.razorpay.com](https://dashboard.razorpay.com/)                           |
+| `RAZORPAY_API_SECRET`  | `razorpay_*` tools            | [dashboard.razorpay.com](https://dashboard.razorpay.com/)                           |
 
 > **Note:** `web_search` supports multiple providers. Set either Brave OR Google credentials. Brave is preferred for backward compatibility.
 
