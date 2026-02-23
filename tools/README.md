@@ -28,6 +28,10 @@ Some tools require API keys to function. Credentials are managed through the enc
 | `BRAVE_SEARCH_API_KEY` | `web_search` tool (Brave)     | [brave.com/search/api](https://brave.com/search/api/)   |
 | `GOOGLE_API_KEY`       | `web_search` tool (Google)    | [console.cloud.google.com](https://console.cloud.google.com/) |
 | `GOOGLE_CSE_ID`        | `web_search` tool (Google)    | [programmablesearchengine.google.com](https://programmablesearchengine.google.com/) |
+| `EXA_API_KEY`          | `exa_*` tools                 | [exa.ai](https://exa.ai/)                                                           |
+| `SERPAPI_API_KEY`      | `scholar_*`, `patents_*` tools | [serpapi.com](https://serpapi.com/)                                                |
+| `NEWSDATA_API_KEY`     | `news_search`, `news_headlines`, `news_by_company` | [newsdata.io](https://newsdata.io/)                        |
+| `FINLIGHT_API_KEY`     | `news_sentiment` tool         | [finlight.me](https://finlight.me/)                                                 |
 
 > **Note:** `web_search` supports multiple providers. Set either Brave OR Google credentials. Brave is preferred for backward compatibility.
 
