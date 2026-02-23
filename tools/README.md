@@ -36,6 +36,10 @@ Some tools require API keys to function. Credentials are managed through the enc
 | `RESEND_API_KEY`       | `send_email` tool             | [resend.com](https://resend.com/)                                                   |
 | `SLACK_BOT_TOKEN`      | `slack_*` tools               | [api.slack.com/apps](https://api.slack.com/apps)                                    |
 | `DISCORD_BOT_TOKEN`    | `discord_*` tools             | [discord.com/developers/applications](https://discord.com/developers/applications)  |
+| `TELEGRAM_BOT_TOKEN`   | `telegram_*` tools            | [@BotFather on Telegram](https://t.me/BotFather)                                    |
+| `GOOGLE_CALENDAR_ACCESS_TOKEN` | `calendar_*` tools    | [console.cloud.google.com](https://console.cloud.google.com/) (OAuth 2.0)           |
+| `HUBSPOT_ACCESS_TOKEN` | `hubspot_*` tools             | [developers.hubspot.com](https://developers.hubspot.com/)                           |
+| `APOLLO_API_KEY`       | `apollo_*` tools              | [app.apollo.io](https://app.apollo.io/)                                             |
 
 > **Note:** `web_search` supports multiple providers. Set either Brave OR Google credentials. Brave is preferred for backward compatibility.
 
